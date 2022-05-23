@@ -8,7 +8,7 @@ public class Seeder {
         menuChoices = new ArrayList<> ();
         menuChoices.add (new MenuChoice1());
         menuChoices.add (new MenuChoice2());
-        menuChoices.add (new menukeuze3.Menukeuze());
+        menuChoices.add (new MenuChoice3Adapter ());
     }
 
     public MenuChoice getMenuChoice (int index) {
